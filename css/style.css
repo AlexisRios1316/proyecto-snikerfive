@@ -76,11 +76,12 @@ ol {
   max-width: 1200px;
   width: 90%;
   margin: 0 auto;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  display: flex;
+  justify-content: space-between;
 }
 .btn-sale {
   padding: 4px 50px;
+  width: 15%;
 }
 .product-container {
   max-width: 1200px;
@@ -333,17 +334,21 @@ ol {
 }
 .footer {
   background: rgba(236, 238, 240, 0.841);
-  padding: 50px 0 20px;
+  padding: 50px 0;
+  width: 100%;
 }
 .nav-footer {
-  max-width: 1000px;
-  width: 100%;
+  width: 90%;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
+  gap: 30px;
 }
 .nav-items {
-  width: 350px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .nav-titles123 {
   font-family: Arial, Helvetica, sans-serif;
