@@ -450,6 +450,10 @@ ol {
   background-color: rgb(13, 114, 234);
   border: 1px solid rgb(255, 255, 255);
 }
+.iframe {
+  width: 560;
+  height: 315;
+}
 /* Media Query*/
 @media screen and (max-width: 992px) {
   .product-container {
@@ -487,6 +491,8 @@ ol {
     align-items: center;
     transition: ease-in-out;
     grid-template-columns: repeat(2, 1fr);
+  }
+  .ubicacion {
   }
   .images img {
     width: 110px;
