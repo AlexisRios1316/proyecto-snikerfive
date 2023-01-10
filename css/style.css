@@ -450,9 +450,12 @@ ol {
   background-color: rgb(13, 114, 234);
   border: 1px solid rgb(255, 255, 255);
 }
-.iframe {
-  width: 560;
-  height: 315;
+.Iframe-YT {
+  text-align: center;
+}
+.Iframe-YT > iframe {
+  height: 350px;
+  width: 550px;
 }
 /* Media Query*/
 @media screen and (max-width: 992px) {
@@ -492,9 +495,15 @@ ol {
     transition: ease-in-out;
     grid-template-columns: repeat(2, 1fr);
   }
-  .ubicacion {
-  }
+
   .images img {
     width: 110px;
+  }
+  .Iframe-YT {
+    text-align: center;
+  }
+  .Iframe-YT > iframe {
+    height: 250px;
+    width: 400px;
   }
 }
