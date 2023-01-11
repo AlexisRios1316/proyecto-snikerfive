@@ -23,11 +23,7 @@ header > nav {
   width: 90%;
   margin: 0 auto;
 }
-.collapse {
-  display: inline-block;
-  flex-basis: content;
-  padding-left: 520px;
-}
+
 .nav-item {
   display: flex;
   justify-content: space-between;
