@@ -449,7 +449,7 @@ ol {
   padding-right: 10px;
 }
 .tlt:hover {
-  color: #1ed760;
+  color: rgba(61, 228, 222, 0.907);
   scale: 1.1;
   cursor: pointer;
 }
@@ -597,4 +597,12 @@ ol {
     grid-gap: 50px;
     margin-top: 50px;
   }
+  .nav-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+    color: black;
+    font-size: 14px;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
